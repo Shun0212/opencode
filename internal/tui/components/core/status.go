@@ -5,18 +5,18 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Shun0212/opencode/internal/config"
+	"github.com/Shun0212/opencode/internal/llm/models"
+	"github.com/Shun0212/opencode/internal/lsp"
+	"github.com/Shun0212/opencode/internal/lsp/protocol"
+	"github.com/Shun0212/opencode/internal/pubsub"
+	"github.com/Shun0212/opencode/internal/session"
+	"github.com/Shun0212/opencode/internal/tui/components/chat"
+	"github.com/Shun0212/opencode/internal/tui/styles"
+	"github.com/Shun0212/opencode/internal/tui/theme"
+	"github.com/Shun0212/opencode/internal/tui/util"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/lsp/protocol"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/components/chat"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
 )
 
 type StatusCmp interface {

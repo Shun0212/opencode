@@ -39,32 +39,32 @@ OpenCode is a Go-based CLI application that brings AI assistance to your termina
 
 ```bash
 # Install the latest version
-curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | bash
+curl -fsSL https://raw.githubusercontent.com/Shun0212/opencode/refs/heads/main/install | bash
 
 # Install a specific version
-curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | VERSION=0.1.0 bash
+curl -fsSL https://raw.githubusercontent.com/Shun0212/opencode/refs/heads/main/install | VERSION=0.1.0 bash
 ```
 
 ### Using Homebrew (macOS and Linux)
 
 ```bash
-brew install opencode-ai/tap/opencode
+brew install Shun0212/tap/opencode
 ```
 
 ### Using AUR (Arch Linux)
 
 ```bash
 # Using yay
-yay -S opencode-ai-bin
+yay -S Shun0212-bin
 
 # Using paru
-paru -S opencode-ai-bin
+paru -S Shun0212-bin
 ```
 
 ### Using Go
 
 ```bash
-go install github.com/opencode-ai/opencode@latest
+go install github.com/Shun0212/opencode@latest
 ```
 
 ## Configuration
@@ -658,7 +658,7 @@ You can also configure a self-hosted model in the configuration file under the `
 
 ```bash
 # Clone the repository
-git clone https://github.com/opencode-ai/opencode.git
+git clone https://github.com/Shun0212/opencode.git
 cd opencode
 
 # Build

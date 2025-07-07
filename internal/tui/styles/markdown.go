@@ -1,10 +1,10 @@
 package styles
 
 import (
+	"github.com/Shun0212/opencode/internal/tui/theme"
 	"github.com/charmbracelet/glamour"
 	"github.com/charmbracelet/glamour/ansi"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
 )
 
 const defaultMargin = 1

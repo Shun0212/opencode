@@ -8,19 +8,19 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/Shun0212/opencode/internal/app"
+	"github.com/Shun0212/opencode/internal/logging"
+	"github.com/Shun0212/opencode/internal/message"
+	"github.com/Shun0212/opencode/internal/session"
+	"github.com/Shun0212/opencode/internal/tui/components/dialog"
+	"github.com/Shun0212/opencode/internal/tui/layout"
+	"github.com/Shun0212/opencode/internal/tui/styles"
+	"github.com/Shun0212/opencode/internal/tui/theme"
+	"github.com/Shun0212/opencode/internal/tui/util"
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/textarea"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/app"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/components/dialog"
-	"github.com/opencode-ai/opencode/internal/tui/layout"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
 )
 
 type editorCmp struct {

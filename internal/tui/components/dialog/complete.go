@@ -1,16 +1,16 @@
 package dialog
 
 import (
+	"github.com/Shun0212/opencode/internal/logging"
+	utilComponents "github.com/Shun0212/opencode/internal/tui/components/util"
+	"github.com/Shun0212/opencode/internal/tui/layout"
+	"github.com/Shun0212/opencode/internal/tui/styles"
+	"github.com/Shun0212/opencode/internal/tui/theme"
+	"github.com/Shun0212/opencode/internal/tui/util"
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/textarea"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/logging"
-	utilComponents "github.com/opencode-ai/opencode/internal/tui/components/util"
-	"github.com/opencode-ai/opencode/internal/tui/layout"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
 )
 
 type CompletionItem struct {

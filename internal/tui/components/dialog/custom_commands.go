@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Shun0212/opencode/internal/config"
+	"github.com/Shun0212/opencode/internal/tui/util"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/tui/util"
 )
 
 // Command prefix constants

@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Shun0212/opencode/internal/db"
+	"github.com/Shun0212/opencode/internal/llm/models"
+	"github.com/Shun0212/opencode/internal/pubsub"
 	"github.com/google/uuid"
-	"github.com/opencode-ai/opencode/internal/db"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/pubsub"
 )
 
 type CreateMessageParams struct {

@@ -1,8 +1,39 @@
 {
-  "$schema": "./opencode-schema.json",
-  "lsp": {
-    "gopls": {
-      "command": "gopls"
+  "data": {
+    "directory": ".opencode"
+  },
+  "providers": {
+    "openai": {
+      "apiKey": "your-api-key",
+      "disabled": true
+    },
+    "anthropic": {
+      "apiKey": "your-api-key",
+      "disabled": true
+    },
+    "copilot": {
+      "disabled": true
+    },
+    "groq": {
+      "apiKey": "your-api-key",
+      "disabled": true
+    },
+    "openrouter": {
+      "apiKey": "your-api-key",
+      "disabled": false
+    },
+    "gemini": {
+      "disabled": false
+    }
+  },
+  "agents": {
+    "coder": {
+      "model": "gemini-2.5-flash",
+      "maxTokens": 5000
+    },
+    "task": {
+      "model": "gemini-2.5-flash",
+      "maxTokens": 5000
     }
   }
 }

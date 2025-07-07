@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/Shun0212/opencode/internal/app"
+	"github.com/Shun0212/opencode/internal/message"
+	"github.com/Shun0212/opencode/internal/pubsub"
+	"github.com/Shun0212/opencode/internal/session"
+	"github.com/Shun0212/opencode/internal/tui/components/dialog"
+	"github.com/Shun0212/opencode/internal/tui/styles"
+	"github.com/Shun0212/opencode/internal/tui/theme"
+	"github.com/Shun0212/opencode/internal/tui/util"
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/spinner"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/app"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/components/dialog"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
 )
 
 type cacheItem struct {

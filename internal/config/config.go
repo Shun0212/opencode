@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/logging"
+	"github.com/Shun0212/opencode/internal/llm/models"
+	"github.com/Shun0212/opencode/internal/logging"
 	"github.com/spf13/viper"
 )
 
